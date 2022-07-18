@@ -1,0 +1,1 @@
+return loadfile(THEME:GetPathG("PaneDisplay","Text"))(PLAYER_2)

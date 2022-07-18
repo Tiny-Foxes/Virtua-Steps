@@ -337,7 +337,7 @@ return {
 			"ScreenPlayerOptions",
 			"ScreenPlayerOptions",
 			"ScreenPlayerOptions",
-			"OFSelectMusic"
+			"ScreenSelectMusic"
 		},
 		LoadFunction = function(self,list)
 			list[1] = true
