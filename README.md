@@ -6,6 +6,7 @@
 This is a modification of the legacy theme from StepMania 5.0.x to be used as a theming playground of sorts trying to come up with something I personally feel proud of.
 
 ## I want to…
+- Completely change the visual aesthetic. Like yes the aesthetic is fine and all but I wanna end up with something that... y'know... *isn't* the legacy theme.
 - Allow the user to change the theme’s color scheme.
 - Add a new "Beginners" mode with a simplified song select menu, simplified judgments (using a 4 row system with the default judgments ranging from "Right On!" to "Too Late.../Too Early..."), and the new "Beginners" mod menu.
 - Add more modifiers, as well as a “beginners” mod menu that new players can use to easily set mods.
