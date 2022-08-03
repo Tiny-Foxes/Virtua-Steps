@@ -7,11 +7,11 @@ return function()
         "Techno\nWhat happens when you mix Dance and Pump together.\n\nCross (4 panels)\nDiagonal (5 panels)\nSquare (8 panels)\nSquare+ (9 panels)\nCross Double (8 panels)\nDiagonal Double (10 panels)\nSquare Double (16 panels)\nSquare+ Double (18 panels)",
         "Be-Mu\nPlay all your BMS files here.\n\nSingle 5 (5 buttons, 1 turntable)\nSingle 7 (7 buttons, 1 turntable)\nDouble 10 (10 buttons, 2 turntables)\nDouble 14 (14 buttons, 2 turntables)",
         "Po-Mu\nPlay all your PMS files here.\n\n3 buttons\n4 buttons\n5 buttons\n7 buttons\n9 buttons\n18 buttons",
-        "GITADORA (Drums)\nSimulate being a real drummer!\n\n10-piece (8 drums, bass pedal, hi-hat pedal)\n9-piece (7 drums, bass pedal, hi-hat pedal)\n6-piece (5 drums, bass pedal)",
-        "GITADORA (Guitar)\nPlay the game that inspired Guitar Hero in the first place.\n\nGuitar 5 (5 frets)\nBass 5 (5 frets, open strum)\nGuitar 6 (6 frets)\nGuitar 3 (3 frets)\nBass 3 (3 frets, open strum)",
-        "Guitar Hero\nThe game that took America by storm in the early 2000s.\n\nSolo, Bass, Rhythm (5 frets)",
+        "GDDM\nSimulate being a real drummer!\n\n10-piece (8 drums, bass pedal, hi-hat pedal)\n9-piece (7 drums, bass pedal, hi-hat pedal)\n6-piece (5 drums, bass pedal)",
+        "GDGF\nPlay the game that inspired GH in the first place.\n\nGuitar 5 (5 frets)\nBass 5 (5 frets, open strum)\nGuitar 6 (6 frets)\nGuitar 3 (3 frets)\nBass 3 (3 frets, open strum)",
+        "GH\nThe game that took America by storm in the early 2000s.\n\nSolo, Bass, Rhythm (5 frets)",
         "Taiko\nPlay the simple yet addictive Taiko game.\n\nSingle (drumhead/red, rim/blue)",
-        "ParaParaParadise\nAccurately simulates the ParaPara dance style.\n\nSingle (5 sensors)\nDouble (10 sensors)",
+        "Para\nAccurately simulates the ParaPara dance style.\n\nSingle (5 sensors)\nDouble (10 sensors)",
         "KBX\nPlay all your favorite keyboard files here.\n\n1 to 19 buttons",
         "EZ2Dancer\nUse panels and your hands to dance up a storm!\n\nSingle (3 panels, 2 sensors)\nReal (3 panels, 2 upper sensors, 2 lower sensors)\nDouble (6 panels, 4 sensors)",
         "3DDX\nThink of it as a spiritual successor to EZ2Dancer.\n\nSingle (4 panels, 4 sensors)\nSingle (5 panels, 4 sensors)\nDual (8 panels, 8 sensors)\nDual (10 panels, 8 sensors)",
@@ -23,24 +23,24 @@ return function()
 
 
     local Choices = {
-        "Dance",
-        "Pump",
-        "SMX",
-        "Techno",
-        "Be-Mu",
-        "Po-Mu",
-        "GDDM",
-        "GDGF",
-        "GH",
-        "Taiko",
-        "Para",
-        "KBX",
-        "EZ2",
-        "DS3DDX",
-        "Maniax",
-        "StepStage",
+        "dance",
+        "pump",
+        "smx",
+        "techno",
+        "be-mu",
+        "po-mu",
+        "gddm",
+        "gdgf",
+        "gh",
+        "taiko",
+        "para",
+        "kbx",
+        "ez2",
+        "ds3ddx",
+        "maniax",
+        "stepstage",
         --"lights", -- should change this to another screen option.
-        "KickBox"
+        "kickbox"
     }
 
     local choice = 1
