@@ -6,8 +6,8 @@ local icon_color = ModeIconColors[gc:GetName()]
 
 return Def.ActorFrame {
 	Def.ActorFrame {
-		GainFocusCommand=function(self) self:stoptweening():bob():effectmagnitude(0,6,0):decelerate(0.05):zoom(1) end,
-		LoseFocusCommand=function(self) self:stoptweening():stopeffect():decelerate(0.1):zoom(0.6) end,
+		GainFocusCommand=function(self) self:stoptweening():effectmagnitude(0,6,0):decelerate(0.05):zoom(0.9) end,
+		LoseFocusCommand=function(self) self:stoptweening():stopeffect():decelerate(0.1):zoom(0.75) end,
 
 		Def.Sprite{
 			Texture= THEME:GetPathG("ScreenSelectPlayMode", "Icon/_background base"),
@@ -29,15 +29,15 @@ return Def.ActorFrame {
 		-- todo: generate a better font for these.
 		Def.BitmapText{
 			Font= "Common Large",
-			Text=string.upper(string_name),
-			InitCommand=function(self) self:y(-12):maxwidth(232) end,
+			Text=string_name,
+			InitCommand=function(self) self:y(-12):maxwidth(390):zoom(0.9) end,
 			OnCommand=function(self)
 				self:diffuse(Color.Black):shadowlength(1):shadowcolor(color("#ffffff77")):skewx(-0.125) end,
 		},
 		Def.BitmapText{
 			Font= "Common Normal",
-			Text=string.upper(string_expl),
-			InitCommand=function(self) self:y(27.5):maxwidth(232) end,
+			Text=string_expl,
+			InitCommand=function(self) self:y(27.5):maxwidth(390):zoom(0.6) end,
 		},
 		Def.Sprite{
 			Texture= THEME:GetPathG("ScreenSelectPlayMode", "Icon/_background base"),
